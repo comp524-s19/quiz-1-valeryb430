@@ -1,3 +1,3 @@
 finalGrade :: [Int] -> [Int] -> Int
-finalGrade a, b = sum ((zipWidth(*) a, b)) `div` (sum b)
+finalGrade xs ys = sum (zipWidth (*) xs ys) `div` (sum ys)
 
