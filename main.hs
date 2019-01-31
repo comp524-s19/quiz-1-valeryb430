@@ -1,1 +1,1 @@
-finalGrade list1 list2 = (sum (zipWidth (*) list1 list2)) `div` (sum list2)
+finalGrade lista listb = (sum (zipWidth (*) lista listb)) `div` (sum listb)
