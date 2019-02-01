@@ -1,5 +1,2 @@
-finalGrade :: [Int] -> [Int] -> Int
-finalGrade xs ys = (sum (zipWidth (*) xs ys)) `div` (sum ys)
-
-main :: IO()
-main = return()
+classGrade avg = (fst avg) * (snd avg)
+finalGrade grade weight = sum (map classGrade (zip grade weight)) `div` sum weight 
